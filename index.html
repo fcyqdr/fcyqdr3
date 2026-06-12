@@ -33,6 +33,10 @@
         .qr-container{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:20px}
         .qr-item{background:rgba(255,255,255,0.05);padding:15px;border-radius:15px;min-width:180px}
         .qr-item img{width:150px;height:150px;border-radius:10px;border:3px solid #fff}
+        
+        /* 让官方的小统计图标居中半透明显示，不破坏网页暗黑美感 */
+        .statcounter {text-align:center; padding:15px 0; opacity:0.35; font-size:12px;}
+        .statcounter a {color:#fff; text-decoration:none;}
     </style>
 </head>
 <body>
@@ -102,8 +106,20 @@
         setTimeout(renderPage, 500);
     </script>
 
-    <div class="statcounter" style="display:none;">
-        <img src="https://c.statcounter.com/13187344/0/2edf763d/1/" alt="stat" referrerPolicy="no-referrer-when-downgrade">
-    </div>
+    <script type="text/javascript">
+    var sc_project=13187344; 
+    var sc_invisible=0; 
+    var sc_security="2edf763d"; 
+    var scJsHost = "https://";
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost +
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/13187344/0/2edf763d/0/"
+    alt="Web Analytics"
+    referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
     </body>
 </html>
