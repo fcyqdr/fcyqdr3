@@ -10,7 +10,7 @@ const SHADOW_DATA = {
         { id: "tile3", url: "http://www.avaw.cc", title: "嫃亾矗譒" },
         { id: "tile4", url: "http://se678.top", title: "鹹湿视频" },
         { id: "tile5", url: "http://www.wv34.cc", title: "​【露天激战】" },
-        { id: "tile6", url: "http://www.wv34.cc", title: "多人狂欢" }
+        { id: "tile6", url: "https://fcyqdr.github.io/-/", title: "酒店监控直播" }
     ],
     // 底部二维码配置
     backups: {
