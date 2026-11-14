@@ -5,7 +5,7 @@
 const SHADOW_DATA = {
     // 导航卡片配置
     tiles: [
-        { id: "tile1", url: "http://vavc.cc", title: "偸凊羣茭" },
+        { id: "tile1", url: "http://www.vavc.cc", title: "偸凊羣茭" },
         { id: "tile2", url: "http://wv24.icu", title: "孧囡囉莉" },
         { id: "tile3", url: "http://www.avaw.cc", title: "嫃亾矗譒" },
         { id: "tile4", url: "http://se678.top", title: "鹹湿视频" },
